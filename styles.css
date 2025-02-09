@@ -28,7 +28,10 @@ p,
   margin: 0;
 }
 .p1 {
-  font: var(--p1);
+  font-size: 4rem;
+  background-image: linear-gradient(-20deg, var(--colora2) 0%, var(--colora) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* Flexible card class */
@@ -38,7 +41,8 @@ p,
   margin: 100px auto;
   display: flex;
   gap: 10px;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .flex-cards > div {
